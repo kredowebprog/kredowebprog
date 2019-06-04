@@ -1,0 +1,116 @@
+@import url('fonts/scada.css');
+
+* { margin: 0; padding: 0; }
+
+.page-container { margin: 0 auto; width: 960px; position: relative; font-family: "Scada"; }
+
+header {
+	background-color: #6f665e;
+	background-image: url("../images/bg1.jpg");
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	display: block;
+	height: 632px;
+/*	left: 0;
+	position: absolute;
+	top: 0;*/
+	width: 100%;
+}
+	.top-block {
+		background-color: rgba(59, 54, 50, 0.3);
+		border-color: #cccccc;
+		border-style: none;
+		border-width: 0;
+		box-sizing: border-box;
+		display: block;
+		height: 81px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 104;
+	}
+		.name-block { border-width: 1px; height: 50px; width: 200px; z-index: 105; position: absolute; top: 23px; }
+			.l1 { font-size: 30.69px; text-transform: uppercase; }
+			.ltype { color: #d7d5d4; }
+			.lname { color: #ffffff; }
+
+		.phone-block { position: absolute; right: 0; top: 25px; z-index: 106; }
+			.phone-value { text-align: right; font-size: 24px; color: #ffffff; }
+
+	.main-block { position: absolute; color: #ffffff; width: 100%; text-align: center; }
+	.main-title { font-size: 85px; top: 210px; line-height: 1; font-weight: bold; }
+	.main-desc { font-size: 30px; top: 420px; }
+
+
+.new-block {
+	position: absolute;
+	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	border-width: 1px;
+	width: 100%;
+	z-index: 1;
+	left: 0;
+	capture: on;
+	container: on;
+}
+
+.services-wrapper { height: 480px; }
+	.service-item { float: left; width: 320px; margin-top: 95px; text-align: center; }
+		.service-icon {
+			width: 109px;
+			height: 109px;
+			border: 2px solid #d3d3d3;
+			background-position: center center;
+			background-repeat: no-repeat;
+			margin: 0 auto;
+			border-radius: 50%;
+		}
+		.icon-1 { background-image: url("../images/i-1.png"); }
+		.icon-2 { background-image: url("../images/i-2.png"); }
+		.icon-3 { background-image: url("../images/i-3.png"); }
+		.icon-4 { background-image: url("../images/i-4.png"); }
+		.service-name { font-size: 20px; font-weight: bold; text-transform: uppercase; margin-top: 35px; }
+		.service-desc { font-size: 16px; color: #7f7a76; margin-top: 15px; }
+
+.advantage-wrapper { height: 735px; background-color: #eeeeee; }
+	.advantages-title { text-align: center; color: #7f7a76; font-weight: bold; font-size: 40px; padding-top: 85px; }
+	.advantages-list { margin-top: 90px; }
+	.advantage-item {
+		background-image: url("../images/preim-bg.png");
+		background-repeat: no-repeat;
+		background-position: top center;
+		width: 480px;
+		height: 281px;
+		margin-top: -40px;
+		float: left;
+	}
+
+		.preim-item-content { display: table; height: 210px; margin: 1px 0 0 16px; width: 450px; }
+		.preim-img { display: table-cell; text-align: center; vertical-align: middle; width: 50%; }
+		.preim-text {
+			display: table-cell;
+			vertical-align: middle;
+			width: 50%;
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+	.address-wrapper { height: 130px; background-color: #ffffff; width: 100%; }
+		.address {
+			color: #7f7a76;
+			font-size: 24px;
+			text-align: center;
+			padding-top: 50px;
+			font-family: "Scada";
+		}
+			.address img { position: absolute; margin-left: -33px; margin-top: -3px; }
+
+	.map-wrapper { width: 100%; height: 420px; }
+
+	.footer { background-image: url("../images/bg2.jpg"); height: 80px; background-position: center center; }
+
+.clearfix { clear: both; }
